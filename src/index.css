@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    background-color: #0B0B0B;
+    color: #EDEDED;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+}
+
+@layer components {
+  .prose-invert {
+    color: #EDEDED;
+  }
+  
+  .prose-invert h1,
+  .prose-invert h2,
+  .prose-invert h3,
+  .prose-invert h4,
+  .prose-invert h5,
+  .prose-invert h6 {
+    color: #EDEDED;
+  }
+  
+  .prose-invert strong {
+    color: #D71920;
+  }
+  
+  .prose-invert a {
+    color: #D71920;
+  }
+  
+  .prose-invert a:hover {
+    color: #B01419;
+  }
+}
