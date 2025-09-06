@@ -43,11 +43,11 @@ export const GALLERY: GalleryItem[] = [
     caption: "Parking brake buttons restored from sticky and faded to clean, sharp, factory-like clarity."
   },
   {
-    id: "Turn Signal Stalk",
-    title: "Turn Signal Stalk",
+    id: "Turn Signal Button",
+    title: "Turn Signal Button",
     model: "Ferrari 458",
     image: "/assets/TurnSignalBA.jpg",
-    caption: "Turn signal stalk restored from worn and rough to a smooth, matte factory finish."
+    caption: "Turn signal button restored from worn and rough to a smooth, matte factory finish."
   },
   {
     id: "Left TFT Controls",
