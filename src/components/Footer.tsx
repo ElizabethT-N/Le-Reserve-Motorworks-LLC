@@ -48,6 +48,17 @@ const Footer = () => {
             <p className="text-brand-text/40 text-xs mt-2">
               Ferrari • Lamborghini • Maserati • Exotic Vehicle Restoration
             </p>
+            <p className="text-brand-text/60 text-sm mt-3">
+              Follow us on Instagram:{' '}
+              <a
+                href="https://www.instagram.com/le_reserve_motorworks/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-brand-accent hover:text-brand-accent/80 hover:underline transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-brand-accent focus:ring-offset-2 focus:ring-offset-brand-bg rounded-lg px-1"
+              >
+                @le_reserve_motorworks
+              </a>
+            </p>
           </div>
         </motion.div>
       </div>
