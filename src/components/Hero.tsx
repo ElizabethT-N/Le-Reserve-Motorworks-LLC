@@ -36,7 +36,7 @@ const Hero = () => {
               Luxury Interior Trim Restoration
             </h2>
             <p className="text-lg md:text-xl text-brand-text/80 max-w-3xl mx-auto">
-              Ferrari • Exotics • Collectibles — Mobile in GA + Nationwide Mail-In
+              Ferrari • Exotics • Collectibles — Mobile + Nationwide Mail-In
             </p>
           </motion.div>
 
