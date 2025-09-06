@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import ReactMarkdown from 'react-markdown';
-import { useState } from 'react';
 
 // Import the markdown content directly
 const aboutContent = `# About Le Reserve Motorworks
