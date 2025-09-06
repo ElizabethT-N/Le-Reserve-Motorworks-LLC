@@ -1,5 +1,5 @@
 export async function sendEstimateForm(formData: FormData) {
-  const id = import.meta.env.VITE_FORMSPREE_ID;
+  const id = import.meta.env.VITE_FORMSPREE_ID as string;
   if (!id) throw new Error("Missing VITE_FORMSPREE_ID");
   const res = await fetch(`https://formspree.io/f/${id}`, {
     method: "POST",
