@@ -1,17 +1,22 @@
 import { motion } from 'framer-motion';
 import ReactMarkdown from 'react-markdown';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
+
+// Import the markdown content directly
+const aboutContent = `# About Le Reserve Motorworks
+
+I'm Elizabeth Nguyen, a Ferrari Master Technician turned restoration specialist.
+I focus on luxury interior trim restoration for Ferrari, Lamborghini, Maserati, and other exotics.
+
+**What I do**
+- Restore sticky/soft-touch trims to factory-like finish
+- Refinish buttons, switches, and bezels
+- Precision stenciling and iconography recreation
+- Mobile in GA + nationwide mail-in
+
+My goal is simple: make your cabin feel right again—clean, precise, and built to last.`;
 
 const About = () => {
-  const [content, setContent] = useState('');
-
-  useEffect(() => {
-    fetch('/src/content/about.md')
-      .then(response => response.text())
-      .then(text => setContent(text))
-      .catch(error => console.error('Error loading about content:', error));
-  }, []);
-
   return (
     <section id="about" className="py-20 bg-brand-surface">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -66,7 +71,7 @@ const About = () => {
                 ),
               }}
             >
-              {content}
+              {aboutContent}
             </ReactMarkdown>
           </div>
 
