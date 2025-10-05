@@ -36,11 +36,11 @@ export const GALLERY: GalleryItem[] = [
     caption: "AC control unit restored from heavy wear and fading to crisp, legible icons with smooth controls."
   },
   {
-    id: "Parking Brake",
-    title: "Parking Brake",
-    model: "Ferrari 458",
-    image: "/assets/ParkingBrakeBA.jpg",
-    caption: "Parking brake buttons restored from sticky and faded to clean, sharp, factory-like clarity."
+    id: "Maserati Shift Indicator",
+    title: "Maserati Shift Indicator",
+    model: "Maserati GranTurismo",
+    image: "/assets/maseratiGtShiftIndicator.jpg",
+    caption: "The original shift indicator had lost all visible markings and illumination. Through stencil recreation and refinishing, it was restored to factory-correct clarity with a clean illuminated finish."
   },
   {
     id: "Turn Signal Button",
@@ -71,11 +71,11 @@ export const GALLERY: GalleryItem[] = [
     caption: "Center bridge buttons restored from peeling and faded to a smooth finish with crisp lettering."
   },
   {
-    id: "Center Console",
-    title: "Center Console",
-    model: "Ferrari F430",
-    image: "/assets/F430CenterConsoleBA.jpg",
-    caption: "F430 center console restored from sticky, worn finish to a clean and uniform factory appearance."
+    id: "Window Switch Group with Trim",
+    title: "Window Switch Group with Trim",
+    model: "Maserati GranTurismo",
+    image: "/assets/WindowSwitchMaseratiGT.jpg",
+    caption: "Switch group refinished to a clean, matte factory look, eliminating sticky and worn surfaces."
   },
   {
     id: "F430 Ashtray Cover",

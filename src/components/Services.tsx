@@ -68,12 +68,6 @@ const Services = () => {
               <p className="text-brand-text/80 leading-relaxed">
                 {service.description}
               </p>
-              
-              <div className="mt-6 pt-4 border-t border-brand-surface">
-                <button className="text-brand-accent font-medium hover:text-brand-accent/80 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-brand-accent focus:ring-offset-2 focus:ring-offset-brand-bg rounded-lg px-2 py-1">
-                  Learn More →
-                </button>
-              </div>
             </motion.div>
           ))}
         </div>

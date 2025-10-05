@@ -13,7 +13,7 @@ While rooted in Ferrari expertise, I provide interior trim restoration for Lambo
 - Precision stenciling and iconography recreation
 - Mobile + nationwide mail-in
 
-My goal is simple: make your cabin feel right again—clean, precise, and built to last.`;
+My goal is simple: make your cabin feel right again. Clean, precise, and built to last.`;
 
 const About = () => {
   return (
